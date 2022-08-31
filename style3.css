@@ -1,0 +1,51 @@
+.service{
+    
+    color: brown;
+    padding: 100px 0px;
+}
+.title h2{
+    color:#f9004d;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration:underline;
+
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  400px; ;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow-y:scroll;
+    text-align: center;
+
+
+}
+.card img{
+    height:80px;
+    width:90px;
+    
+}
+h5{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}

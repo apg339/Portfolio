@@ -1,0 +1,43 @@
+.table{
+    margin-left: 600px;
+    padding: 28px 0px;
+   
+    
+}
+.table h2{
+    color: black;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    
+    
+}
+
+#contact{
+    border-collapse: collapse;
+    width: 45%;
+    
+
+}
+#contact td,#contact th{
+    border: 1px solid #f9004d;
+    padding: 8px;
+}
+#contact th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f9004d;
+    color: white;
+}
+#contact td{
+    color: black;
+}
+#contact tr:nth-child(even)
+{
+    background-color: #f9004d;
+}
+
+#contact tr:hover 
+{
+    background-color: white;
+}

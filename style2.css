@@ -1,0 +1,121 @@
+.hero img{
+    width: 290px;
+    height: 290px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:100px 0px ;
+}
+.about p{
+    color: #f9004d;
+}
+.main-text{
+    width: 550px;
+
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.main-text h2{
+    color: #f9004d;
+    font-size:75px ;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.main-text p{
+    color: black;
+    
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    
+
+}
+.main-text button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 13px 10px;
+    transition: transform .4s;
+
+}
+.profilephoto{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(222, 218, 218);
+    position: relative;
+    
+}
+.profilephoto img{
+    position: absolute;
+}
+img:first-child{
+    height: 253px;
+    width: 235px;
+    top: -41px;
+    left: 230px;
+
+    animation-name: t;
+    animation-duration: 1.5s;
+}
+ @keyframes t{
+    0%{
+        transform: translateY(-260px);
+    }
+    100%{
+        
+      transform: translateY(0px);
+        
+
+    }
+} 
+img:nth-child(2){
+    height: 242px;
+    width: 213px;
+    top: 123px;
+    left: -18px;
+    animation-name: t1;
+    animation-duration: 1.5s;
+}
+ @keyframes t1{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+        
+        
+    }
+} 
+img:last-child{
+    height: 260px;
+    width: 250px;
+    top: 266px;
+    left: 230px;
+    animation-name: t2;
+    animation-duration: 1.5s;
+}
+@keyframes t2{
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateX(0px);
+        
+        
+    }
+}
+.btn:hover{
+    cursor: pointer;
+} 
+
